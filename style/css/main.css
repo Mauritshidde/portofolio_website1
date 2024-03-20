@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Babylonica&display=swap');
+
+body {
+    margin-top: 0;
+    /* margin-bottom: 5vh; */
+    padding: 0;
+    background-color: darkgrey;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* .box_shadow {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+} */
+
+section {
+    margin-bottom: 5vh;
+}
+
+#nav_bar {
+    position: fixed;
+    overflow: hidden;
+
+    display: flex;
+    flex-wrap: nowrap;
+
+    background-color: black;
+    width: 100vw;
+    height: 5vh;
+
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#nav_bar_name {
+    display: flex;
+    justify-content: center;
+    width: 10vw;
+
+    margin-right: 10vh;
+    margin-top: 0;
+    padding: 0px;
+    color: white;
+
+    font-family: "Babylonica", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+}
+
+#nav_bar_right {
+    width: 20vw;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.nav_bar_button {
+    padding-left: 1vw;
+    padding-right: 1vw;
+    color: white;
+}
+
+img.resize {
+    width:540px; /* you can use % */
+    height: auto;
+}
+
+.home_button {
+    /* width: 5vw;
+    height: 1vh; */
+    border-radius: 0.1vh;
+    border-color: red;
+
+    /* background-color: white; */
+}
+
+.start_page {
+    width: 100vw;
+    height: auto;
+    margin-bottom: 5vh;
+    padding: 0px;
+    background-color: white;
+}
+
+.start_page_image {
+    width: 100vw;
+    height: auto;
+    padding: 0px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: darkgray;
+}
+
+.logo {
+    width: 5vw;
+    height: auto;
+    border: 0.2vw solid black;
+}
+
+.date {
+    color: white;
+    border: 0.2vw solid black;
+}
+
+.tekst_div {
+    width: 90vw;
+    height: auto;
+    border-color: 0.1vw solid lightslategrey;
+    background-color: grey;
+    text-align: center;
+    padding: 3vw;
+}
+
+.project_cubes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 5vw;
+}
+
+.project_cube {
+    min-width: 700/5px;
+    width: 20vw;
+    border: 0.2vw solid black;
+    background-color: grey;
+    color: darkgray;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.project_image {
+    width: 20vw;
+    height: auto;
+}
+
+.project_text {
+    font-size-adjust: inherit;
+    font-size: medium;
+    /* font-size: 1vw; */
+}
+
+div.footer {
+    width: 100vw;
+    height: 10vh;
+    background-color: white;
+    margin: 0px;
+}
+
+img.footer {
+    width: 5vw;
+    height: auto;
+}
+
+p.footer {
+    color: black;
+}
+
+.footer_item {
+    border: 1vw solid black;
+}
