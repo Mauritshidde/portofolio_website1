@@ -94,7 +94,7 @@ a:link {
     text-decoration: none;
 }
 
-a:hover {
+.menu:hover {
     background-color: darkgray;
 }
 
@@ -102,6 +102,11 @@ a:hover {
     width: 5vw;
     height: auto;
     border: 0.2vw solid black;
+}
+
+.logo:hover {
+    opacity: 10%;
+    /* background-color: red; */
 }
 
 .date {
@@ -164,3 +169,9 @@ p.footer {
 .footer_item {
     border: 1vw solid black;
 }
+
+/* .github {
+    width: 5vw;
+    height: auto;
+    background-color: red;
+} */
